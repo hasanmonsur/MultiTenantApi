@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using MultiTenantApi.Data;
 using MultiTenantApi.Models;
+using MultiTenantApi.Services;
 
 namespace MultiTenantApi.Controllers
 {
@@ -9,35 +9,25 @@ namespace MultiTenantApi.Controllers
     [Route("api/[controller]")]
     public class InvoicesController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly InvoiceRepository _repo;
 
-        public InvoicesController(ApplicationDbContext context)
+        public InvoicesController(InvoiceRepository repo)
         {
-            _context = context;
+            _repo = repo;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetInvoices()
+        public async Task<IActionResult> Get()
         {
-            var invoices = await _context.Invoices.ToListAsync();
+            var invoices = await _repo.GetInvoicesAsync();
             return Ok(invoices);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateInvoice([FromBody] Invoice invoice)
+        public async Task<IActionResult> Create(Invoice invoice)
         {
-            if (HttpContext.Items["TenantId"] is Guid tenantId && tenantId != Guid.Empty)
-            {
-                invoice.tenant_id = tenantId;
-            }
-            else
-            {
-                return BadRequest("Tenant ID missing or invalid.");
-            }
-
-            _context.Invoices.Add(invoice);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetInvoices), new { tenant_id = invoice.tenant_id }, invoice);
+            var id = await _repo.CreateInvoiceAsync(invoice);
+            return Ok(new { id });
         }
 
     }

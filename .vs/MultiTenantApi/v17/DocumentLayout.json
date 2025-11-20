@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\MultiTenantApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\data\\dapperdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:data\\dapperdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\services\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:services\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\services\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:services\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\middleware\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:middleware\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BBA8F0E-6FAF-09E8-D017-61EB10ED2C44}|MultiTenantApi.csproj|d:\\multitenantapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,13 +74,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "D:\\MultiTenantApi\\Models\\Tenant.cs",
+              "RelativeDocumentMoniker": "Models\\Tenant.cs",
+              "ToolTip": "D:\\MultiTenantApi\\Models\\Tenant.cs",
+              "RelativeToolTip": "Models\\Tenant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:42:08.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\MultiTenantApi\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "D:\\MultiTenantApi\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:41:54.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MultiTenantApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\MultiTenantApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T12:00:04.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceRepository.cs",
+              "DocumentMoniker": "D:\\MultiTenantApi\\Services\\InvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceRepository.cs",
+              "ToolTip": "D:\\MultiTenantApi\\Services\\InvoiceRepository.cs",
+              "RelativeToolTip": "Services\\InvoiceRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T06:58:28.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TenantRepository.cs",
+              "DocumentMoniker": "D:\\MultiTenantApi\\Services\\TenantRepository.cs",
+              "RelativeDocumentMoniker": "Services\\TenantRepository.cs",
+              "ToolTip": "D:\\MultiTenantApi\\Services\\TenantRepository.cs",
+              "RelativeToolTip": "Services\\TenantRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T06:56:36.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DapperDbContext.cs",
+              "DocumentMoniker": "D:\\MultiTenantApi\\Data\\DapperDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\DapperDbContext.cs",
+              "ToolTip": "D:\\MultiTenantApi\\Data\\DapperDbContext.cs",
+              "RelativeToolTip": "Data\\DapperDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T11:02:33.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MultiTenantApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\MultiTenantApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:50:03.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InvoicesController.cs",
               "DocumentMoniker": "D:\\MultiTenantApi\\Controllers\\InvoicesController.cs",
               "RelativeDocumentMoniker": "Controllers\\InvoicesController.cs",
               "ToolTip": "D:\\MultiTenantApi\\Controllers\\InvoicesController.cs",
               "RelativeToolTip": "Controllers\\InvoicesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAjwBAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T11:08:10.195Z",
               "EditorCaption": ""
@@ -85,74 +184,9 @@
               "RelativeDocumentMoniker": "Middleware\\TenantMiddleware.cs",
               "ToolTip": "D:\\MultiTenantApi\\Middleware\\TenantMiddleware.cs",
               "RelativeToolTip": "Middleware\\TenantMiddleware.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowBwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T11:05:41.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\MultiTenantApi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\MultiTenantApi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-17T11:04:11.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\MultiTenantApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\MultiTenantApi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T11:02:33.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "D:\\MultiTenantApi\\Models\\Invoice.cs",
-              "RelativeDocumentMoniker": "Models\\Invoice.cs",
-              "ToolTip": "D:\\MultiTenantApi\\Models\\Invoice.cs",
-              "RelativeToolTip": "Models\\Invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:59:56.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Tenant.cs",
-              "DocumentMoniker": "D:\\MultiTenantApi\\Models\\Tenant.cs",
-              "RelativeDocumentMoniker": "Models\\Tenant.cs",
-              "ToolTip": "D:\\MultiTenantApi\\Models\\Tenant.cs",
-              "RelativeToolTip": "Models\\Tenant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:57:19.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MultiTenantApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\MultiTenantApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:50:03.445Z",
               "EditorCaption": ""
             }
           ]

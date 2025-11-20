@@ -1,15 +1,17 @@
-using Microsoft.EntityFrameworkCore;
 using MultiTenantApi.Data;
 using MultiTenantApi.Middleware;
+using MultiTenantApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Add services
 builder.Services.AddControllers();
+builder.Services.AddSingleton<DapperDbContext>();
+builder.Services.AddScoped<TenantRepository>();
+builder.Services.AddScoped<InvoiceRepository>();
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 //builder.Services.AddOpenApi();

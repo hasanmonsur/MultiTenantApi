@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MultiTenantApi.Data;
+﻿using MultiTenantApi.Data;
 using Npgsql;
 
 namespace MultiTenantApi.Middleware
@@ -15,29 +14,20 @@ namespace MultiTenantApi.Middleware
 
         public async Task InvokeAsync(HttpContext context)
         {
-            if (context.Request.Headers.TryGetValue("X-Tenant-ID", out var tenantIdHeader)
-                && Guid.TryParse(tenantIdHeader, out var tenantId))
+            // 1. Read Tenant from Header
+            if (!context.Request.Headers.TryGetValue("X-Tenant-ID", out var tenantIdHeader))
             {
-                context.Items["TenantId"] = tenantId;
-
-                // Set PostgreSQL session variable for RLS
-                var db = context.RequestServices.GetService<ApplicationDbContext>();
-                if (db != null)
-                {
-                    string sql = $"SET app.current_tenant = '{tenantId}'";
-
-                    await db.Database.ExecuteSqlRawAsync(sql);
-
-                }
-            }
-            else
-            {
-                // If tenant ID is missing or invalid, reject request
                 context.Response.StatusCode = 400;
                 await context.Response.WriteAsync("X-Tenant-ID header missing or invalid GUID");
                 return;
             }
 
+            // Store for later use in repositories
+            context.Items["TenantId"] = tenantIdHeader;
+                       
+            
+
+            // 3. Continue Pipeline
             await _next(context);
         }
     }
